@@ -41,9 +41,10 @@ DJANGO_AND_THIRD_PARTY_APPS = [
     'django.contrib.staticfiles',
 ]
 
-PROJECT_APPS = ['djangoapp.apps.DjangoappConfig',]
+PROJECTS_APPS = ['djangoapp.apps.DjangoappConfig',
+  ]
 
-INSTALLED_APPS = DJANGO_AND_THIRD_PARTY_APPS + PROJECT_APPS 
+INSTALLED_APPS = DJANGO_AND_THIRD_PARTY_APPS + PROJECTS_APPS 
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -125,4 +126,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-ADMIN_SITE_URL = 'RGRGRGR34342/'
+ADMIN_SITE_URL = 'adminazavr/'
